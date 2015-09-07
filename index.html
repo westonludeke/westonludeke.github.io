@@ -1,8 +1,152 @@
 <!DOCTYPE html>
 <html>
 
-<body>
-Hello World! This is my first test page! :-)
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Weston's personal page">
+	<meta name="autor" content="Weston">
+	<title>Weston's Test Website</title>
+
+  <!-- below is the favicon -->
+	<link rel="icon" href="img/headshot.jpg">
+  <link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+</head>
+
+<body> 
+
+
+
+	<div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+             <!--  <a class="navbar-brand" href="#">Weston's website</a> -->
+             <img height="40" style="PADDING-TOP: 10px; PADDING-RIGHT: 10px;" src="img/headshot.jpg" />
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#connect">Connect</a></li>
+             </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+<!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="img/blogging2.jpg" alt="First slide">
+          
+          </div>
+        </div>
+        
+      </div>
+     
+    </div><!-- /.carousel -->
+
+	<!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div id="about" class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+          <img id="about-pic" class="thumbnail" src="img/headshot.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Weston Ludeke</h2>
+          <p>A startup dude from Houston. Lover of kolaches.</p>
+          <p><a class="btn btn-default" target="_blank" href="http://wp.me/p6B6Sc-HQ" role="button">Read more about this project &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+
+ <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Learning Web Development</h2>
+          <p class="lead">I am learning Bootstrap and how to code.<br>
+            This portfolio page is one of my first projects!</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="img/coding.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div id="portfolio" class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">My Portfolio</h2>
+          <p class="lead">I'm also learning more about WordPress and blogging.<br>Check out these projects:</p>
+          My personal blog: <a href="http://westonludeke.com" target="_blank">WestonLudeke.com</a><br> 
+          A sports blog I run: <a href="http://cardiaccoogs.com" target="_blank">CardiacCoogs.com</a>
+          </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="img/coding2.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div id="connect" class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">On the interwebs</h2>
+          <p class="lead">Feel free to connect with me across the series of tubes!</p>
+           <p>
+            <a href="http://twitter.com/westonludeke" target="_blank"><img src="img/twitter.png" width="75" height="75"></a>
+            <a href="http://facebook.com/westonludeke" target="_blank"><img src="img/facebook.png" width="75" height="75"></a>
+            <a href="http://linkedin.com/in/westonludeke" target="_blank"><img src="img/linkedin.png" width="75" height="75"></a>
+            <a href="http://github.com/westonludeke" target="_blank"><img src="img/github.png" width="75" height="75"></a>
+            <a href="http://stackoverflow.com/users/5137112/weston-ludeke" target="_blank"><img src="img/stackoverflow.png" width="75" height="75"></a>
+            <a href="http:///westonludeke.com" target="_blank"><img src="img/wordpress.png" width="75" height="75"></a>
+           </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="img/socialmedia2.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+     <!-- FOOTER -->
+    
+    <div class="container">
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2015 Weston Ludeke</p>
+      </footer>
+     </div>
+    </div>
+   
+    <!-- /.container -->
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
 </body>
 
 </html>
