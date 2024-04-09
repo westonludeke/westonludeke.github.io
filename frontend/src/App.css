@@ -41,14 +41,21 @@ p {
   background-color: black;
   color: white;
   padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  /* text-transform: uppercase; */
 }
 
 .navbar-links a {
   color: white;
   text-decoration: none;
   padding: 0 1rem;
+  text-transform: lowercase;
 }
 
 .navbar-links a:hover {
-  text-decoration: underline;
+  font-weight: bold;
+}
+
+.navbar-brand { 
+  font-weight: bold;
 }
