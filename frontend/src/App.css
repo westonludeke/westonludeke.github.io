@@ -33,3 +33,22 @@ p {
   font-weight: 600;
   line-height: 2rem;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
