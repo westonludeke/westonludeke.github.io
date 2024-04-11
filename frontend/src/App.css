@@ -44,6 +44,7 @@ p {
   color: white;
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
+  font-weight: bold;
   /* text-transform: uppercase; */
 }
 
@@ -55,7 +56,7 @@ p {
 }
 
 .navbar-links a:hover {
-  font-weight: bold;
+  color: #999999;
 }
 
 .navbar-brand { 
@@ -73,3 +74,9 @@ p {
   border-radius: 1.5rem;
   /* padding: 4rem; */
 }
+
+/* .logo-section img {
+  width: 500px;
+  height: 500px;
+} */
+

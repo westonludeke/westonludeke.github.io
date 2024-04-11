@@ -1,7 +1,7 @@
 import React from 'react';
 // import Navbar from './Navbar';
 import './App.css';
-import campfirePng from './campfire.png';
+import campfirePng from './assets/campfire.png';
 
 function Home() {
   return (
