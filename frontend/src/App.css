@@ -37,6 +37,13 @@ p {
   line-height: 2rem;
 }
 
+.other-projects h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 20px 0;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -83,6 +90,8 @@ p {
   display: none; /* Hidden on larger screens */
   cursor: pointer;
 }
+
+/* responsive section */
 
 @media (max-width: 768px) {
   .navbar-links {
