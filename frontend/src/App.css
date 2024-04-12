@@ -49,6 +49,11 @@ p {
   margin-bottom: 40px;
 }
 
+.navbar-links {
+  display: flex;
+  flex-direction: column;
+}
+
 .navbar-links a {
   color: white;
   text-decoration: none;
@@ -72,4 +77,28 @@ p {
   align-items: center;
   border: 50px solid rgb(38 38 38);
   border-radius: 1.5rem;
+}
+
+.navbar-hamburger {
+  display: none; /* Hidden on larger screens */
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none; /* Hide links on smaller screens */
+  }
+  .navbar-hamburger {
+    display: block; /* Show hamburger menu on smaller screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-links {
+    display: flex; /* Show links as row on larger screens */
+    flex-direction: row;
+  }
+  .navbar-hamburger {
+    display: none; /* Hide hamburger menu on larger screens */
+  }
 }

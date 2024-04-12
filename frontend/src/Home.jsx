@@ -1,5 +1,4 @@
 import React from 'react';
-// import Navbar from './Navbar';
 import './App.css';
 import campfirePng from './assets/campfire.png';
 
@@ -18,6 +17,9 @@ function Home() {
           <p>Case Study: <a href="https://campfirepreviews.github.io">https://campfirepreviews.github.io</a></p>
           <p>GitHub: <a href="https://github.com/campfire-previews/campfire-app">https://github.com/campfire-previews/campfire-app</a></p>
         </div>
+      </div>
+      <div className="other-projects">
+        <h2>Other Projects</h2>
       </div>
     </div>
   );
