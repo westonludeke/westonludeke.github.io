@@ -2098,9 +2098,9 @@ canvas {
 	section.special, article.special {
 		text-align: center;
 	}
-/* Haven Section */
+/* Campfire Section */
   section#one p {
-    color: #000000;
+    color: #ffffff;
   }
 
   section#one h2 {
@@ -2925,11 +2925,12 @@ canvas {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: transparent;
+		/* background-color: transparent; */
+		background-color: #6C6C6C;
 		border-radius: 5px;
 		border: 0;
 		box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
-		color: #2B3140 !important;
+		/* color: #2B3140 !important; */
 		cursor: pointer;
 		display: inline-block;
 		font-family: Raleway, Helvetica, sans-serif;
@@ -3832,7 +3833,7 @@ canvas {
 			}
 
 		.wrapper.spotlight {
-			background-color: #ffffff;
+			background-color: #000000;
 		}
 
 			.wrapper.spotlight:before, .wrapper.spotlight:after {
