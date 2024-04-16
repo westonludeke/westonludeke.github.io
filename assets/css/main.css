@@ -101,9 +101,12 @@ input, select, textarea {
 	body {
 		background-color: #2e3141;
 		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-		background-size: auto, cover;
-		background-attachment: fixed, fixed;
-		background-position: center, center;
+		background-size: auto,
+ cover;
+		background-attachment: fixed,
+ fixed;
+		background-position: center,
+ center;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3528,8 +3531,10 @@ canvas {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-				background-size: auto, cover;
-				background-position: center, center;
+				background-size: auto,
+ cover;
+				background-position: center,
+ center;
 				margin-bottom: -6.5em;
 			}
 
@@ -3638,8 +3643,10 @@ canvas {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto, cover;
-			background-position: center, 0% 30%;
+			background-size: auto,
+ cover;
+			background-position: center,
+ 0% 30%;
 			margin-bottom: -6.5em;
 		}
 
@@ -3649,8 +3656,10 @@ canvas {
 
 		#wrapper > header {
 			padding: 11em 3em 7.375em 3em ;
-			background-size: auto, cover;
-			background-position: center, 0% 0%;
+			background-size: auto,
+ cover;
+			background-position: center,
+ 0% 0%;
 			margin-bottom: -4.75em;
 		}
 
@@ -3664,7 +3673,8 @@ canvas {
 
 		#wrapper > header {
 			padding: 6.5em 2em 3em 2em ;
-			background-size: auto, 125%;
+			background-size: auto,
+ 125%;
 			margin-bottom: -2.5em;
 		}
 
@@ -3679,7 +3689,7 @@ canvas {
 	}
 
 	.wrapper {
-		background-color: #2e3141;
+		background-color: #000000;
 		margin: 6.5em 0;
 		position: relative;
 	}
@@ -3689,11 +3699,11 @@ canvas {
 		}
 
 		.wrapper:before {
-			box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+			box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
 		}
 
 		.wrapper:after {
-			box-shadow: inset 0 -1px 0 0 #2e3141, 0 1px 0 0 #2e3141;
+			box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
 		}
 
 		.wrapper:before, .wrapper:after {
@@ -3749,15 +3759,15 @@ canvas {
 			}
 
 			.wrapper.style2:before {
-				box-shadow: inset 0 -1px 0 0 #353849, 0 1px 0 0 #353849;
+				box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
 			}
 
 			.wrapper.style2:after {
-				box-shadow: inset 0 -1px 0 0 #353849, 0 1px 0 0 #353849;
+				box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
 			}
 
 		.wrapper.style3 {
-			background-color: #3d4051;
+			background-color: #000000;
 		}
 
 			.wrapper.style3:before, .wrapper.style3:after {
@@ -3765,15 +3775,15 @@ canvas {
 			}
 
 			.wrapper.style3:before {
-				box-shadow: inset 0 -1px 0 0 #3d4051, 0 1px 0 0 #3d4051;
+				box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
 			}
 
 			.wrapper.style3:after {
-				box-shadow: inset 0 -1px 0 0 #3d4051, 0 1px 0 0 #3d4051;
+				box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
 			}
 
 		.wrapper.style4 {
-			background-color: #454858;
+			background-color: #000000;
 		}
 
 			.wrapper.style4:before, .wrapper.style4:after {
@@ -3781,15 +3791,15 @@ canvas {
 			}
 
 			.wrapper.style4:before {
-				box-shadow: inset 0 -1px 0 0 #454858, 0 1px 0 0 #454858;
+				box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
 			}
 
 			.wrapper.style4:after {
-				box-shadow: inset 0 -1px 0 0 #454858, 0 1px 0 0 #454858;
+				box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
 			}
 
 		.wrapper.style5 {
-			background-color: #4d5060;
+			background-color: #000000;
 		}
 
 			.wrapper.style5:before, .wrapper.style5:after {
@@ -3797,15 +3807,15 @@ canvas {
 			}
 
 			.wrapper.style5:before {
-				box-shadow: inset 0 -1px 0 0 #4d5060, 0 1px 0 0 #4d5060;
+				box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
 			}
 
 			.wrapper.style5:after {
-				box-shadow: inset 0 -1px 0 0 #4d5060, 0 1px 0 0 #4d5060;
+				box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
 			}
 
 		.wrapper.style6 {
-			background-color: #555867;
+			background-color: #000000;
 		}
 
 			.wrapper.style6:before, .wrapper.style6:after {
@@ -3813,11 +3823,11 @@ canvas {
 			}
 
 			.wrapper.style6:before {
-				box-shadow: inset 0 -1px 0 0 #555867, 0 1px 0 0 #555867;
+				box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
 			}
 
 			.wrapper.style6:after {
-				box-shadow: inset 0 -1px 0 0 #555867, 0 1px 0 0 #555867;
+				box-shadow: inset 0 -1px 0 0 #000000, 0 1px 0 0 #000000;
 			}
 
 		.wrapper.spotlight {
@@ -3882,7 +3892,8 @@ canvas {
 			}
 
 			.wrapper.spotlight.style2 {
-				background-color: #45558d;
+				/* background-color: #45558d; */
+				background-color: #000000;
 			}
 
 				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
@@ -3898,7 +3909,8 @@ canvas {
 				}
 
 			.wrapper.spotlight.style3 {
-				background-color: #3f4e85;
+				/* background-color: #3f4e85; */
+				background-color: #000000;
 			}
 
 				.wrapper.spotlight.style3:before, .wrapper.spotlight.style3:after {
@@ -3914,7 +3926,7 @@ canvas {
 				}
 
 			.wrapper.spotlight.style4 {
-				background-color: #39477c;
+				background-color: #000000;
 			}
 
 				.wrapper.spotlight.style4:before, .wrapper.spotlight.style4:after {
@@ -4124,10 +4136,12 @@ canvas {
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			background-color: #2e3141;
+			background-color: #000000;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto, cover;
-			background-position: center, center;
+			background-size: auto,
+ cover;
+			background-position: center,
+ center;
 			margin-top: -6.5em;
 			padding-top: 6.5em;
 		}
