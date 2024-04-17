@@ -4240,3 +4240,7 @@ canvas {
   display: inline-block;
   border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 }
+
+.campfire-highlight {
+	color: #ed6b2c;
+}
