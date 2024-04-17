@@ -2719,6 +2719,12 @@ canvas {
 				font-size: 2.25em;
 			}
 
+			@media screen and (max-width: 340px) {			
+				#icons {
+					right: 0.5em;
+				}
+		}
+
 /* Contact */
 
 	ul.contact {
@@ -3157,7 +3163,7 @@ canvas {
 			-ms-transition: opacity 0.2s ease-in-out, visibility 0.2s;
 			transition: opacity 0.2s ease-in-out, visibility 0.2s;
 			border-bottom: 0;
-			font-size: 1.8em;
+			font-size: 1.4em;
 			margin-bottom: 0;
 			opacity: 1;
 			visibility: visible;
@@ -3289,6 +3295,13 @@ canvas {
 				}
 
 		}
+
+		@media screen and (max-width: 340px) {
+			#header h1 {
+				font-size: 0.7em;
+			}
+	}
+	
 
 /* Menu */
 
