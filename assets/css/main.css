@@ -2122,11 +2122,11 @@ canvas {
   }
 
   section#one .button:hover {
-    background-color: rgba(69, 85, 141, 0.125);
+    background-color: rgba(207, 212, 210);
   }
 
   section#one .button:active {
-    background-color: rgba(69, 85, 141, 0.175);
+    background-color: rgba(207, 212, 210);
   }
 
 
