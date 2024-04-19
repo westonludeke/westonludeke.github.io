@@ -4257,3 +4257,12 @@ canvas {
 .campfire-highlight {
 	color: #ed6b2c;
 }
+
+@media screen and (max-width: 480px) {
+  .content .button {
+    display: block;     
+    width: 80%;         
+    margin: 0 auto;     
+    text-align: center; 
+  }
+}
