@@ -4266,3 +4266,18 @@ canvas {
     text-align: center; 
   }
 }
+
+.video-container {
+  position: relative;
+  width: 50%; /* Adjust width as needed */
+  margin: 0 auto; /* Centering the video */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
