@@ -4269,8 +4269,8 @@ canvas {
 
 .video-container {
   position: relative;
-  width: 50%; /* Adjust width as needed */
-  margin: 0 auto; /* Centering the video */
+  width: 50%;
+  margin: 0 auto;
 }
 
 .video-container iframe {
@@ -4281,3 +4281,9 @@ canvas {
   height: 100%;
 }
 
+
+@media (max-width: 1024px) {
+  .video-container {
+    width: 90%;
+  }
+}
